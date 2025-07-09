@@ -4,48 +4,39 @@
     Layout = "~/Views/Shared/_MainLayout.cshtml";
 }
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal1">
-
     Satış Yap
 </button>
+
 <div class="modal" id="Modal1">
-    <div class="modal-dialog">
-        <div class="modal-content">
+    <div class="modal-dialog modal-lg mx-auto mt-5">
+        <div class="modal-content" style="padding-left: 30px; padding-right: 30px;">
             <div class="modal-header">
                 <h2 class="modal-title">Satış Yapma Ekranı</h2>
             </div>
             <form method="post" action="/Satis/YeniSatis">
-                <div class="model-body">
-                    <label>
-                        Ürün Adı
-                    </label>
-                    @Html.TextBoxFor(m => m.URUN, new { @class = "form-control" })
-                    <br />
-                    <label>
-                        Müşteri Adı Soyadı
-
-                    </label>
-                    @Html.TextBoxFor(m => m.MUSTERI, new { @class = "form-control" })
-                    <br />
-                    <label>
-                        Adet
-                    </label>
-                    @Html.TextBoxFor(m => m.ADET, new { @class = "form-control" })
-                    <br />
-                    <label>
-                        Fiyat
-                    </label>
-                    @Html.TextBoxFor(m => m.FIYAT, new { @class = "form-control" })
-                    <br />
-                    <button type="submit" class="btn btn-info">Satış İşlemini Yap</button>
-                    <button type ="button" class="btn btn-danger" data-dismiss="modal">Vazgeç</button>
-
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Ürün Adı</label>
+                        @Html.TextBoxFor(m => m.URUN, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Müşteri Adı Soyadı</label>
+                        @Html.TextBoxFor(m => m.MUSTERI, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Adet</label>
+                        @Html.TextBoxFor(m => m.ADET, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Fiyat</label>
+                        @Html.TextBoxFor(m => m.FIYAT, new { @class = "form-control" })
+                    </div>
+                    <div class="text-right mt-3">
+                        <button type="submit" class="btn btn-info">Satış İşlemini Yap</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Vazgeç</button>
+                    </div>
                 </div>
             </form>
         </div>
     </div>
 </div>
-
-
-
-
-
