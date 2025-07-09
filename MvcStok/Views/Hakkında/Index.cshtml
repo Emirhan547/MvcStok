@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Hakkında";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<div class="container mt-5 text-center">
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#aboutModal">
+        ℹ️ Proje Hakkında
+    </button>
+</div>
+
+<!-- Modal -->
+<div id="aboutModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content text-center">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">📌 Proje Bilgileri</h4>
+            </div>
+            <div class="modal-body">
+                <h3 style="color: #007bff;">📦 MVC Stok Takip Projesi</h3>
+                <p>Bu proje, <strong>Murat Yücedağ</strong>'ın 50 Derste MVC eğitim serisine bağlı olarak geliştirilmiştir.</p>
+                <p><strong>Geliştirici:</strong> Emirhan Hacıoğlu</p>
+                <p><strong>Yıl:</strong> 2025</p>
+
+                <hr />
+
+                <p><strong>Kullanılan Teknolojiler:</strong></p>
+                <ul class="list-unstyled">
+                    <li>✔️ ASP.NET MVC 5</li>
+                    <li>✔️ Entity Framework (Database First)</li>
+                    <li>✔️ Microsoft SQL Server</li>
+                    <li>✔️ Bootstrap 3</li>
+                    <li>✔️ LINQ, Razor</li>
+                </ul>
+
+                <hr />
+
+                <p>
+                    🔗 <a href="https://github.com/Emirhan547/MvcStok.git" target="_blank">GitHub Proje Linki</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
