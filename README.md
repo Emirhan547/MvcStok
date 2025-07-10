@@ -35,3 +35,14 @@ Bu uygulama, kullanıcıların ürünleri ve kategorileri tanımlamasını, mü�
 
 ---
 
+![Ekran görüntüsü 2025-07-10 125211](https://github.com/user-attachments/assets/47c6a0f4-c186-4e95-8269-00a91a8ecca1)
+
+![Ekran görüntüsü 2025-07-10 125226](https://github.com/user-attachments/assets/4a70319f-c9de-47ec-bbc0-a9625d4e753f)
+
+![Ekran görüntüsü 2025-07-10 125240](https://github.com/user-attachments/assets/0b62f8d4-50df-4a33-b5a8-39f874807d94)
+
+![Ekran görüntüsü 2025-07-10 125254](https://github.com/user-attachments/assets/feb422aa-d93b-451e-9dc0-14f17b86da84)
+
+![Ekran görüntüsü 2025-07-10 125307](https://github.com/user-attachments/assets/d956afad-48f4-4f07-953f-136850895105)
+
+
