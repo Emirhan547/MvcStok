@@ -26,7 +26,9 @@ Bu uygulama, kullanıcıların ürünleri ve kategorileri tanımlamasını, mü�
 ## 🗂️ Uygulama Modülleri
 
 - **Kategori Yönetimi:** Ürünlerin ait olduğu kategorileri ekleme, silme ve güncelleme
+- ![Ekran görüntüsü 2025-07-10 125211](https://github.com/user-attachments/assets/47c6a0f4-c186-4e95-8269-00a91a8ecca1)
 - **Ürün Yönetimi:** Ürünlerin listelenmesi, stok miktarları, fiyat ve marka gibi bilgilerin yönetimi
+- ![Ekran görüntüsü 2025-07-10 125226](https://github.com/user-attachments/assets/4a70319f-c9de-47ec-bbc0-a9625d4e753f)
 - **Müşteri Yönetimi:** Müşteri ekleme, silme, güncelleme ve arama
 - **Satış Yönetimi:** Ürün satışı işlemleri ve ilgili kayıtların takibi
 - **Hakkında Sayfası:** Proje ve geliştirici hakkında bilgilendirme
@@ -34,10 +36,6 @@ Bu uygulama, kullanıcıların ürünleri ve kategorileri tanımlamasını, mü�
 - **Alert (Onay Kutusu):** Silme işlemlerinde JavaScript ile onay alma
 
 ---
-
-![Ekran görüntüsü 2025-07-10 125211](https://github.com/user-attachments/assets/47c6a0f4-c186-4e95-8269-00a91a8ecca1)
-
-![Ekran görüntüsü 2025-07-10 125226](https://github.com/user-attachments/assets/4a70319f-c9de-47ec-bbc0-a9625d4e753f)
 
 ![Ekran görüntüsü 2025-07-10 125240](https://github.com/user-attachments/assets/0b62f8d4-50df-4a33-b5a8-39f874807d94)
 
